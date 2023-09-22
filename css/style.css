@@ -21,9 +21,6 @@ p {
 header {
   background: url(../img/header/bg.png) center no-repeat;
   background-size: cover;
-  /* background-size: 100%; */
-  /* background-repeat: no-repeat; */
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,8 +47,6 @@ header p {
   max-height: 348px;
 }
 .logo__img {
-  /* width: 376px;
-  height: 348px; */
   width: 100%;
   height: auto;
 }
@@ -64,8 +59,6 @@ header p {
 .boxes__img {
   width: 100%;
   height: auto;
-  /* width: 766px;
-  height: 525px; */
 }
 
 .header__description {
@@ -170,7 +163,7 @@ main {
 }
 
 .item__status {
-  width: 90px;
+  width: 80px;
   text-align: center;
 }
 
@@ -262,10 +255,6 @@ main {
 }
 
 @media (max-width: 768px) {
-  .item__status {
-    width: 60px;
-  }
-
   .product__img {
     max-width: 130px;
   }
@@ -276,7 +265,7 @@ main {
     text-align: center;
   }
   .item__status {
-    width: 30px;
+    width: 40px;
   }
 
   .item__status p {
